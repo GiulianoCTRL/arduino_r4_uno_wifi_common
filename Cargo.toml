@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+members = ["blinky", "ra4m1-pac"]
+
+[profile.release]
+codegen-units = 1
+debug = true
+lto = true
