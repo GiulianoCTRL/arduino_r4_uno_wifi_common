@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["blinky", "ra4m1-pac"]
+members = ["blinky", "ra4m1-hal", "ra4m1-pac"]
 
 [profile.release]
 codegen-units = 1
